@@ -9,7 +9,9 @@ header-includes:
 ---
 
 
-Machine learning class final project. The PCA code implements regularized PCA with gradient descent as the parameter estimation method (PCA algorithm only utilizes no python libraries aside from numpy). DISCLAIMER: I am not a computer science student (self-thought), so I realize that much of the code is probably not as optimized  as it could be.
+Machine learning class final project. The PCA code implements regularized (L2) PCA with gradient descent as the parameter estimation method (PCA algorithm utilizes no python libraries aside from `numpy`). It is also important to note that the PCA algorithm does not use Eigen decomposition but attempts to minimize reconstruction error. I am not fully sure, but I believe that Eigen decomposition tends to work better for components extraction, so the algorithm used here is probably not optimal.
+
+DISCLAIMER: I am not a computer science student (self-thought), so I realize that much of the code is probably not as optimized  as it could be.
 
 
 **Important:** all of the functions and code referenced below can be found in the *python code* folder at https://github.com/quinix45/Hard-coded-regularized-PCA/tree/main/python%20code 
