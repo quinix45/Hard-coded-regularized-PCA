@@ -255,4 +255,4 @@ RE_{x_1} = (x_{1} - (u_1 x_1 + u_2 x_2)u_1)^2 + \lambda u_1^2 \\
 = 2(-2 u_1 x_1 - u_2 x_2) (x_{1} - u_1 (u_1 x_1 + u_2 x_2)) + 2\lambda u_1 
 \end{gather*}
 ```
-The final equation shown in teh previous line is equation 8 shown on page 3.
+The final equation shown in the previous line is equation 8 shown on page 3.
